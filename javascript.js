@@ -12,7 +12,7 @@ var viewer = pannellum.viewer('panorama', {
         "panorama": "33.6m.jpg",
         "hfov":200,
         "haov": 360,
-        "vaov":150,
+        "vaov":100,
         "minPitch":-25,
         "maxPitch": 20,
         "yaw": 0,
@@ -25,12 +25,12 @@ var viewer = pannellum.viewer('panorama', {
         "panorama": "34.2m.jpg",
         "hfov":200,
         "haov": 360,
-        "vaov":150,
+        "vaov":100,
         "minPitch":-25,
         "maxPitch": 20,
-        "yaw": 0,
+        "yaw": 49,
         "compass":true,
-        "northOffset":0
+        "northOffset":-49
       },
 
     //   "image-3": {
@@ -126,7 +126,7 @@ function updateDegreeScale() {
     // Define initial yaw values for each image (adjust these as needed)
     var initialYaw = {
       "image-1": 0,
-      "image-2": 0,
+      "image-2": 49,
     //   "image-3": -165,
     //   "image-4": 295
     };
